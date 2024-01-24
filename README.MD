@@ -4,7 +4,7 @@
 
 This Python script `run.py` is a benchmarking tool for different solutions to the problem of finding the first letter to appear twice in a string. The script includes several different solutions to the problem and a function to run benchmarks on these solutions.
 
-### Running it on Windows won't give any meaningful results because of the low accuracy
+### Running it on Windows may not give meaningful results because of the low accuracy!
 However WSL does the job.
 
 ## Solutions
