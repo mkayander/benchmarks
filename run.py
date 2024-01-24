@@ -57,9 +57,9 @@ def run_benchmark(solution, input, numberOfRuns=args.count):
     print("Input: " + input)
     runData = []
     for i in range(numberOfRuns):
-        startTime = time.time_ns()
+        startTime = time.perf_counter_ns()
         solution(input)
-        elapsedTime = time.time_ns() - startTime
+        elapsedTime = time.perf_counter_ns() - startTime
         runData.append(elapsedTime)
 
     # print("runData:", runData)
